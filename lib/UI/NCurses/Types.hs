@@ -22,7 +22,7 @@ import           Control.Exception (Exception, throwIO)
 import           Control.Monad (liftM, ap)
 import           Control.Monad.Fix (MonadFix, mfix)
 import           Control.Monad.IO.Class (MonadIO, liftIO)
-import           Control.Monad.Trans.Reader (ReaderT)
+import           Control.Monad.Reader (ReaderT)
 import           Data.Typeable
 import qualified Foreign as F
 import qualified Foreign.C as F

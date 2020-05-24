@@ -164,7 +164,7 @@ module UI.NCurses
 
 import           Control.Exception (bracket_, catch, throwIO, try)
 import           Control.Monad (when, unless)
-import qualified Control.Monad.Trans.Reader as R
+import qualified Control.Monad.Reader as R
 import           Data.Char (chr, ord)
 import           Data.List (foldl')
 import           Data.Maybe (catMaybes)
